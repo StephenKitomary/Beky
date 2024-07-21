@@ -1,16 +1,10 @@
-# Simple HTML
+Introduction
+BECKY is a smart learning tool designed to help individuals learn to play their favorite music pieces on the piano. Personally, I love music and often sing my favorite pieces. For as long as I can remember, I've always wanted to go beyond singing and play them on the piano. Unlike other instruments, the piano is just awesome!
 
-HTML landing page template designed by Cruip.
+Features
+Inbuilt MIDI synthesizer: Sounds are simulated on a 30 USD Raspberry pi board. Saving you thousands of dolars that would have cost you to aquire a piano. 
+Interactive Lessons: BECKY provides interactive lessons that guide you step-by-step through learning various pieces. With keys that light up, guiding you what keys to press
+Progress Tracking: Keeps track of your progress , sends daily reminders for practice sessions as well as sending weekly reports straight to your email box, with a number of practise sessions you had, number of mistakes you made, and weeklu strikes achieved.
 
-This HTML template is shipped with the (Tailwind CLI tool)[https://tailwindcss.com/docs/installation].
-
-* [Getting started](#getting-started)
-
-## Getting started
-
-* First, ensure that node.js & npm are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
-* Next, use your command line to enter your project directory.
-* This template comes with a ready-to-use package file called `package.json`. You just need to run `npm install` to install all of the dependencies into your project.
-* When `npm` has finished with the install, run `npm run build` to recompile the `style.css` file in the root directory.
-
-You're ready to go! The most useful task for rapid development is `npm run dev`, which rebuild the CSS every time you make a change in the HML or JS files.
+Acknowledgements
+Fluidsynth Library - for the MIDI synthesizer and soundfonts.
